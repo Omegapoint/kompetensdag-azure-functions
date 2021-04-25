@@ -4,13 +4,13 @@
 
 #### Förberedelser
 
-Följ intruktionerna nedan för det operativ system du använder.
+Följ intruktionerna nedan för det operativsystem du använder.
 
 
 <details><summary><strong>Windows</strong></summary>
 <p>
 
-1. Ladda ned .NET Core 3.1 SDK här [64-bitars-installationfil](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.408-windows-x64-installer)
+1. Ladda ned .NET Core 3.1 SDK här [64-bitars-installationsfil](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.408-windows-x64-installer)
 2. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
 3. Installera Azure Functions Core Tools [64-bitars-installationsfil](https://go.microsoft.com/fwlink/?linkid=2135274)
 
