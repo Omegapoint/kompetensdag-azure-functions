@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Omegapoint.Functions": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
