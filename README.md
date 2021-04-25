@@ -1,6 +1,6 @@
 # Debuggning av Azure Functions
 
-![diagram](function.png)
+<img src="function.png" alt="drawing" width="96" height="96"/>
 
 #### Förberedelser
 
