@@ -8,6 +8,8 @@ using System.IO;
 using System.Threading.Tasks;
 using System;
 using Omegapoint.Domain.Dtos;
+using Omegapoint.Domain.Extensions;
+using Omegapoint.Domain.Models;
 
 namespace Omegapoint.Functions
 {
@@ -35,14 +37,12 @@ namespace Omegapoint.Functions
                 string name = req.Query["name"];
 
                 string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-                dynamic data = JsonConvert.DeserializeObject<PersonDto>(requestBody);
-                name = name ?? data?.name;
+                PersonDto dto = JsonConvert.DeserializeObject<PersonDto>(requestBody);
+                Person person = dto.CreateInstance();
 
-                responseMessage = string.IsNullOrEmpty(name)
-                    ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                    : $"Hello, {name}. This HTTP triggered function executed successfully.";
+                responseMessage = $"Hello, {person.Name.Value}. So {person.ProgrammingLanguage.Value} is the language of your chosing huh?";
 
-                await personQueue.AddAsync(JsonConvert.SerializeObject(name));
+                // await personQueue.AddAsync(JsonConvert.SerializeObject(dto));
             }
             catch (Exception e)
             {

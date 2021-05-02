@@ -1,3 +1,4 @@
+using System;
 namespace Omegapoint.Domain.Models
 {
     public class ProgrammingLanguage : DomainPrimitive
@@ -5,7 +6,7 @@ namespace Omegapoint.Domain.Models
         public ProgrammingLanguage(string value)
         {
             // add rules
-            Value = value;
+            Value = value ?? throw new ArgumentNullException(nameof(value));
         }
     }
 }

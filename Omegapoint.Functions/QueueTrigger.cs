@@ -6,15 +6,17 @@ namespace Omegapoint.Functions
 {
     public class QueueTrigger
     {
+        private const string FunctionName = nameof(QueueTrigger);
         public QueueTrigger()
         {
-            
+
         }
 
-        [FunctionName("QueueTrigger")]
-        public async Task RunAsync([QueueTrigger("myqueue-items", Connection = "AzureWebJobsStorage")]string myQueueItem, ILogger log)
+        [FunctionName(FunctionName)]
+        public async Task RunAsync([QueueTrigger("myqueue-items", Connection = "AzureWebJobsStorage")] string myQueueItem, ILogger log)
         {
             log.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
+            await Task.Delay(1);
         }
     }
 }
