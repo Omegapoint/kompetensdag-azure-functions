@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omegapoint.Functions", "Omegapoint.Functions\Omegapoint.Functions.csproj", "{06586F8C-CE44-40F1-B81A-FCB73E7C1DF7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omegapoint.Models", "Omegapoint.Models\Omegapoint.Models.csproj", "{3FDD61DF-CF5B-4E33-96EE-880785F37A85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omegapoint.Domain", "Omegapoint.Domain\Omegapoint.Domain.csproj", "{3FDD61DF-CF5B-4E33-96EE-880785F37A85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
