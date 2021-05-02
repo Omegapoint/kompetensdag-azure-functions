@@ -29,7 +29,6 @@ namespace Omegapoint.Functions
             var config = configBuilder.Build();
             services
                 .AddSingleton<IConfiguration>(config)
-                .AddHttpClient()
                 .AddLogging();
             return services;
         }

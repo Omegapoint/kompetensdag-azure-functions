@@ -5,6 +5,7 @@ namespace Omegapoint.Domain.Models
     {
         public Name(string value)
         {
+            // add rules
             Value = value ?? throw new ArgumentNullException(nameof(value));
         }
     }
