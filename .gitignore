@@ -25,7 +25,7 @@ local.settings.json
 .vs/
 
 # Visual Studio Code cache directory
-.vscode/
+#.vscode/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/

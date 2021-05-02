@@ -9,14 +9,17 @@ using System.Threading.Tasks;
 
 namespace Omegapoint.Functions
 {
-    public class Function1
+    public class HttpTrigger
     {
-        public Function1()
+        private const string FunctionName = nameof(HttpTrigger);
+
+        
+        public HttpTrigger()
         {
             
         }
 
-        [FunctionName("Function1")]
+        [FunctionName(FunctionName)]
         public async Task<IActionResult> RunAsync(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)

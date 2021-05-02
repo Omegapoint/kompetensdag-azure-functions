@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omegapoint.Functions", "Omegapoint.Functions\Omegapoint.Functions.csproj", "{06586F8C-CE44-40F1-B81A-FCB73E7C1DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omegapoint.Functions", "Omegapoint.Functions\Omegapoint.Functions.csproj", "{06586F8C-CE44-40F1-B81A-FCB73E7C1DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omegapoint.Models", "Omegapoint.Models\Omegapoint.Models.csproj", "{3FDD61DF-CF5B-4E33-96EE-880785F37A85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{06586F8C-CE44-40F1-B81A-FCB73E7C1DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06586F8C-CE44-40F1-B81A-FCB73E7C1DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06586F8C-CE44-40F1-B81A-FCB73E7C1DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDD61DF-CF5B-4E33-96EE-880785F37A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDD61DF-CF5B-4E33-96EE-880785F37A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDD61DF-CF5B-4E33-96EE-880785F37A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDD61DF-CF5B-4E33-96EE-880785F37A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
