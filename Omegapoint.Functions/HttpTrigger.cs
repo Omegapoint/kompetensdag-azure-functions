@@ -26,7 +26,7 @@ namespace Omegapoint.Functions
         public async Task<IActionResult> RunAsync(
             [HttpTrigger(AuthorizationLevel.Function, "post", Route = "persons")] HttpRequest req,
             ILogger log,
-            [Queue("personqueue", Connection = "AzureWebJobsStorage")]
+            [Queue("personqueue", Connection = StorageConnection.AzuriteQueue)]
             IAsyncCollector<string> personQueue)
         {
             string responseMessage = "This HTTP triggered function failed execution";
@@ -34,15 +34,13 @@ namespace Omegapoint.Functions
             {
                 log.LogInformation("C# HTTP trigger function processed a request.");
 
-                string name = req.Query["name"];
-
                 string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
                 PersonDto dto = JsonConvert.DeserializeObject<PersonDto>(requestBody);
                 Person person = dto.CreateInstance();
 
                 responseMessage = $"Hello, {person.Name.Value}. So {person.ProgrammingLanguage.Value} is the language of your chosing huh?";
 
-                // await personQueue.AddAsync(JsonConvert.SerializeObject(dto));
+                await personQueue.AddAsync(JsonConvert.SerializeObject(dto));
             }
             catch (Exception e)
             {
