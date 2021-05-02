@@ -1,14 +1,10 @@
 {
-  "version": "2.0",
-  "extensionBundle": {
-    "id": "Microsoft.Azure.Functions.ExtensionBundle",
-    "version": "[2.*, 3.0.0)"
-  },
-  "logging": {
+    "version": "2.0",
+    "logging": {
         "applicationInsights": {
+            "samplingExcludedTypes": "Request",
             "samplingSettings": {
-                "isEnabled": true,
-                "excludedTypes": "Request"
+                "isEnabled": true
             }
         }
     }
