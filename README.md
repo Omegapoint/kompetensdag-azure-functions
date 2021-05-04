@@ -40,7 +40,7 @@ Följ intruktionerna nedan för det operativsystem du använder.
 <details><summary><strong>Kommandon</strong></summary>
 <p>
 
-Se till att ha dotnet 3.0 eller över installerat
+Se till att ha dotnet 3.0 eller senare installerat
 ```
 dotnet --version
 ```
@@ -58,7 +58,7 @@ Hoppa in i den mappen
 cd .\Functions\
 ```
 
-#### Här börjar vi skapa functionsappen 
+### Här börjar vi skapa functionsappen 
 
 ```
 func init
