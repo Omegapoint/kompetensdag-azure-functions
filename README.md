@@ -37,8 +37,8 @@ Följ intruktionerna nedan för det operativsystem du använder.
 </p>
 </details>
 
-<details><summary><strong>Kommandon</strong></summary>
-<h1>
+<details><summary><h2>Kommandon</h2></summary>
+<p>
 
 Se till att ha dotnet 3.0 eller över installerat
 ```
@@ -95,7 +95,7 @@ func host start
 ```
 curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure Rocks'}"
 ```
-</h1>
+</p>
 </details>
 
 ### Fastnat?
