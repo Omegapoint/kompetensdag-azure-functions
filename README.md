@@ -63,9 +63,13 @@ cd .\Functions\
 func init
 ```
 
+Öppna i VSCode (Visual Studio Code)
+
 ```
 code .
 ```
+
+Skapa en Funktion!
 
 ```
 func new
