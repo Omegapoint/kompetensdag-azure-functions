@@ -49,12 +49,18 @@ Kolla också att det gick bra att installera Azure Functions Core Tools
 func --version
 ```
 
+Skapa en mapp som till exempel heter `Functions` eller gå till en valfri mapp och skriv `mkdir Functions`
+
+Hoppa in i den mappen
+
 ```
 cd .\Functions\
 ```
 
+##### Har börjar vi skapa functionsappen 
+
 ```
-func init --docker
+func init
 ```
 
 ```
