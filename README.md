@@ -37,7 +37,8 @@ Följ intruktionerna nedan för det operativsystem du använder.
 </p>
 </details>
 
-### Kommandon:
+<details><summary><strong>Kommandon</strong></summary>
+<h1>
 
 Se till att ha dotnet 3.0 eller över installerat
 ```
@@ -77,11 +78,10 @@ func new
 
 Välj `HttpTrigger` i listan och namnge triggern vad du vill
 
-
-Ändra `Route=null` i in-parametern till funktionen till `names`
+Ändra `Route = null` i in-parametern till funktionen till `Route = names`
 
 Tryck `F1` på tangentbordet i VSCode och copy-paste:a in `Debug: Start Debugging`
-    *hint:* nästa gång kommer `F5` vara mappat till debuggern som man kan trycka på då
+    *tips:* nästa gång kommer `F5` vara mappat till debuggern som man kan trycka på då
 
 Om man vill köra funktionen utan degugern på, testa köra:
 ```
@@ -95,6 +95,8 @@ func host start
 ```
 curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure Rocks'}"
 ```
+</h1>
+</details>
 
 ### Fastnat?
 
