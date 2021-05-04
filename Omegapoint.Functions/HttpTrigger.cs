@@ -40,7 +40,7 @@ namespace Omegapoint.Functions
 
                 responseMessage = $"Hello, {person.Name.Value}. So {person.ProgrammingLanguage.Value} is the language of your chosing huh?";
 
-                // await personQueue.AddAsync(JsonConvert.SerializeObject(dto));
+                await personQueue.AddAsync(JsonConvert.SerializeObject(dto));
             }
             catch (Exception e)
             {

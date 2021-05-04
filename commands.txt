@@ -1,0 +1,9 @@
+curl.exe --request POST http://localhost:7071/api/HttpTrigger --data "{'name':'Azure Rocks'}"
+code .
+func host start
+cd .\Functions\
+dotnet --version
+func new
+func init --docker
+F1 - Debug: Start Debugging
+<script src='https://wzrd.in/standalone/copy-button@latest'></script>
