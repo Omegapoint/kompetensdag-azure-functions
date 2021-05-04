@@ -39,8 +39,10 @@ Följ intruktionerna nedan för det operativsystem du använder.
 
 #### Kommandon:
 
+```
 func new
-<script src='https://wzrd.in/standalone/copy-button@latest'>"func new"</script>
+```
+<script src='https://wzrd.in/standalone/copy-button@latest'></script>
 
 #### Fastnat?
 
