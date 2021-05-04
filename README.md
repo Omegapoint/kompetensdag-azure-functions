@@ -37,7 +37,7 @@ Följ intruktionerna nedan för det operativsystem du använder.
 </p>
 </details>
 
-<details><summary><h2>Kommandon</h2></summary>
+<details><summary><hr style="height:30px">Kommandon</hr></summary>
 <p>
 
 Se till att ha dotnet 3.0 eller över installerat
