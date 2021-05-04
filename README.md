@@ -2,7 +2,7 @@
 
 <img src="image/function.png" alt="drawing" width="96" height="96"/>
 
-#### Förberedelser
+### Förberedelser
 
 Följ intruktionerna nedan för det operativsystem du använder.
 
@@ -37,14 +37,49 @@ Följ intruktionerna nedan för det operativsystem du använder.
 </p>
 </details>
 
-#### Kommandon:
+### Kommandon:
+```
+dotnet --version
+```
+
+```
+cd .\Functions\
+```
+
+```
+func init --docker
+```
+
+```
+code .
+```
 
 ```
 func new
 ```
-<script src='https://wzrd.in/standalone/copy-button@latest'></script>
 
-#### Fastnat?
+Välj `HttpTrigger` i listan och namnge triggern vad du vill
+
+
+Ändra `Route=null` i in-parametern till funktionen till `names`
+
+Tryck `F1` på tangentbordet i VSCode och copy-paste:a in `Debug: Start Debugging`
+    *hint:* nästa gång kommer `F5` vara mappat till debuggern som man kan trycka på då
+
+Om man vill köra funktionen utan degugern på, testa köra:
+```
+func host start
+```
+
+Öppna föslagsvis upp ett nytt kommandofönster och gör en post request till din precis skapta HttpTrigger!
+
+##### Till exempel 
+
+```
+curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure Rocks'}"
+```
+
+### Fastnat?
 
 Pinga i chatten eller ställ din fråga direkt i mötet.
 
