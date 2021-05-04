@@ -37,6 +37,10 @@ Följ intruktionerna nedan för det operativsystem du använder.
 </p>
 </details>
 
+Kommandon:
+
+func new
+
 #### Fastnat?
 
 Pinga i chatten eller ställ din fråga direkt i mötet.
