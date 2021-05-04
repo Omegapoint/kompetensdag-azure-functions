@@ -57,7 +57,7 @@ Hoppa in i den mappen
 cd .\Functions\
 ```
 
-##### Har börjar vi skapa functionsappen 
+#### Här börjar vi skapa functionsappen 
 
 ```
 func init
