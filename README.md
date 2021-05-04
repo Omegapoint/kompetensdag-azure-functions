@@ -38,8 +38,15 @@ Följ intruktionerna nedan för det operativsystem du använder.
 </details>
 
 ### Kommandon:
+
+Se till att ha dotnet 3.0 eller över installerat
 ```
 dotnet --version
+```
+
+Kolla också att det gick bra att installera Azure Functions Core Tools
+```
+func --version
 ```
 
 ```
