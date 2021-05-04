@@ -37,11 +37,8 @@ Följ intruktionerna nedan för det operativsystem du använder.
 </p>
 </details>
 
-<hr style="width:50%;text-align:left;margin-left:0"> 
 <details><summary><strong>Kommandon</strong></summary>
 <p>
-
-</hr>
 
 Se till att ha dotnet 3.0 eller över installerat
 ```
