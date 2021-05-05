@@ -98,6 +98,9 @@ curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure R
 </p>
 </details>
 
+
+<iframe src='https://view.officeapps.live.com/op/embed.aspx?src=[https://omegapointcloud-my.sharepoint.com/:p:/g/personal/adalin_omegapoint_se/EdjUwTwF8rdOgwLzoodBmGoBlnpiG0TtWGpPeDKvB9fxtw?e=4x6BZA]' width='100%' height='600px' frameborder='0'>
+
 ### Fastnat?
 
 Pinga i chatten eller ställ din fråga direkt i mötet.
