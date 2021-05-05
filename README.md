@@ -66,7 +66,9 @@ cd .\Functions\
 func init
 ```
 
-Öppna i VSCode (Visual Studio Code)
+Öppna i VSCode (Visual Studio Code) 
+
+*för att debuggern ska fungera kräver det att man öppnar upp mappen där functionen ligger i sin VSCode*
 
 ```
 code .
