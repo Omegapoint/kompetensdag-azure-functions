@@ -1,6 +1,6 @@
 # Debuggning av Azure Functions
 
-<img src="image/function.png" alt="drawing" width="96" height="96"/>
+<img src="images/function.png" alt="drawing" width="96" height="96"/>
 
 ### Förberedelser
 
@@ -36,6 +36,8 @@ Följ intruktionerna nedan för det operativsystem du använder.
 
 </p>
 </details>
+
+### Skapa en funktionsapp
 
 <details><summary><strong>Kommandon</strong></summary>
 <p>
@@ -88,7 +90,7 @@ Om man vill köra funktionen utan degugern på, testa köra:
 func host start
 ```
 
-Öppna föslagsvis upp ett nytt kommandofönster och gör en post request till din precis skapta HttpTrigger!
+Öppna förslagsvis upp ett nytt kommandofönster och gör en post request till din precis skapta HttpTrigger!
 
 ##### Till exempel 
 
@@ -98,8 +100,41 @@ curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure R
 </p>
 </details>
 
+### Presentation
 
-<iframe src='https://view.officeapps.live.com/op/embed.aspx?src=[https://omegapointcloud-my.sharepoint.com/:p:/g/personal/adalin_omegapoint_se/EdjUwTwF8rdOgwLzoodBmGoBlnpiG0TtWGpPeDKvB9fxtw?e=4x6BZA]' width='100%' height='600px' frameborder='0'>
+<details><summary><strong>Slides</strong></summary>
+<p>
+
+<img src="images/Slide1.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide2.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide3.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide4.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide5.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide6.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide7.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide8.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide9.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide10.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide11.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide12.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide13.PNG" alt="drawing" width="960" height="540"/>
+
+<img src="images/Slide14.PNG" alt="drawing" width="960" height="540"/>
+
+</p>
+</details>
 
 ### Fastnat?
 
