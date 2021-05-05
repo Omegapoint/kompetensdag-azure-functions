@@ -2,7 +2,7 @@
 
 <img src="images/function.png" alt="drawing" width="96" height="96"/>
 
-### Förberedelser
+## Förberedelser
 
 Följ intruktionerna nedan för det operativsystem du använder.
 
@@ -37,7 +37,7 @@ Följ intruktionerna nedan för det operativsystem du använder.
 </p>
 </details>
 
-### Skapa en funktionsapp
+## Skapa en funktionsapp
 
 <details><summary><strong>Kommandon</strong></summary>
 <p>
@@ -60,7 +60,7 @@ Hoppa in i den mappen
 cd .\Functions\
 ```
 
-### Här börjar vi skapa functionsappen 
+## Här börjar vi skapa functionsappen 
 
 ```
 func init
@@ -92,7 +92,7 @@ func host start
 
 Öppna förslagsvis upp ett nytt kommandofönster och gör en post request till din precis skapta HttpTrigger!
 
-##### Till exempel 
+#### Till exempel 
 
 ```
 curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure Rocks'}"
@@ -100,10 +100,12 @@ curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure R
 </p>
 </details>
 
-### Presentation
+## Presentation
 
 <details><summary><strong>Slides</strong></summary>
 <p>
+
+<br>
 
 <img src="images/Slide1.PNG" alt="drawing" width="640" height="360"/>
 
@@ -136,7 +138,7 @@ curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure R
 </p>
 </details>
 
-### Fastnat?
+## Fastnat?
 
 Pinga i chatten eller ställ din fråga direkt i mötet.
 
