@@ -44,12 +44,12 @@ Följ intruktionerna nedan för det operativsystem du använder.
 
 Se till att ha dotnet 3.0 eller senare installerat
 ```
-dotnet --version
+$ dotnet --version
 ```
 
 Kolla också att det gick bra att installera Azure Functions Core Tools
 ```
-func --version
+$ func --version
 ```
 
 Skapa en mapp som till exempel heter `Functions` eller gå till en valfri mapp och skriv `mkdir Functions`
@@ -57,27 +57,27 @@ Skapa en mapp som till exempel heter `Functions` eller gå till en valfri mapp o
 Hoppa in i den mappen
 
 ```
-cd .\Functions\
+$ cd .\Functions\
 ```
 
 ## Här börjar vi skapa functionsappen 
 
 ```
-func init
+$ func init
 ```
 
 Öppna i VSCode (Visual Studio Code) 
 
-*för att debuggern ska fungera kräver det att man öppnar upp mappen där functionen ligger i sin VSCode*
+*för att debuggern ska fungera kräver det att man öppnar upp mappen där functionen ligger VSCode*
 
 ```
-code .
+$ code .
 ```
 
 Skapa en Funktion!
 
 ```
-func new
+$ func new
 ```
 
 Välj `HttpTrigger` i listan och namnge triggern vad du vill
@@ -89,7 +89,7 @@ Tryck `F1` på tangentbordet i VSCode och copy-paste:a in `Debug: Start Debuggin
 
 Om man vill köra funktionen utan debuggern på, testa köra:
 ```
-func host start
+$ func host start
 ```
 
 Öppna förslagsvis upp ett nytt kommandofönster och gör en post request till din nyss skapade HttpTrigger!
@@ -97,7 +97,7 @@ func host start
 #### Till exempel 
 
 ```
-curl.exe --request POST http://localhost:7071/api/names --data "{'name':'there!'}"
+$ curl.exe --request POST http://localhost:7071/api/names --data "{'name':'there!'}"
 ```
 </p>
 </details>
