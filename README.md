@@ -105,33 +105,33 @@ curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure R
 <details><summary><strong>Slides</strong></summary>
 <p>
 
-<img src="images/Slide1.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide1.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide2.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide2.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide3.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide3.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide4.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide4.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide5.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide5.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide6.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide6.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide7.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide7.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide8.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide8.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide9.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide9.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide10.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide10.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide11.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide11.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide12.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide12.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide13.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide13.PNG" alt="drawing" width="640" height="360"/>
 
-<img src="images/Slide14.PNG" alt="drawing" width="960" height="540"/>
+<img src="images/Slide14.PNG" alt="drawing" width="640" height="360"/>
 
 </p>
 </details>
