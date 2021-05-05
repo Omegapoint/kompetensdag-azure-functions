@@ -83,19 +83,19 @@ Välj `HttpTrigger` i listan och namnge triggern vad du vill
 Ändra `Route = null` i in-parametern till funktionen till `Route = names`
 
 Tryck `F1` på tangentbordet i VSCode och copy-paste:a in `Debug: Start Debugging`
-    *tips:* nästa gång kommer `F5` vara mappat till debuggern som man kan trycka på då
+*tips:* nästa gång kommer `F5` vara mappat till debuggern som man kan trycka på då
 
-Om man vill köra funktionen utan degugern på, testa köra:
+Om man vill köra funktionen utan debuggern på, testa köra:
 ```
 func host start
 ```
 
-Öppna förslagsvis upp ett nytt kommandofönster och gör en post request till din precis skapta HttpTrigger!
+Öppna förslagsvis upp ett nytt kommandofönster och gör en post request till din nyss skapade HttpTrigger!
 
 #### Till exempel 
 
 ```
-curl.exe --request POST http://localhost:7071/api/names --data "{'name':'Azure Rocks'}"
+curl.exe --request POST http://localhost:7071/api/names --data "{'name':'there!'}"
 ```
 </p>
 </details>
