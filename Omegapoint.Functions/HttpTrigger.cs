@@ -39,7 +39,7 @@ namespace Omegapoint.Functions
                 PersonDto dto = JsonConvert.DeserializeObject<PersonDto>(requestBody);
                 Person person = dto.CreateInstance();
 
-                responseMessage = $"Hello, {person.Name.Value}. So {person.ProgrammingLanguage.Value} is the language of your chosing huh?";
+                responseMessage = $"Hello, {person.Name.Value} So {person.ProgrammingLanguage.Value} is the language of your choosing huh?";
                 var message = JsonConvert.SerializeObject(dto);
                 await personQueue.AddAsync(message);
             }
