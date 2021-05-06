@@ -15,6 +15,12 @@ Följ intruktionerna nedan för det operativsystem du använder.
 3. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
 4. Installera Azurite Extension till VSCode [Azurite](vscode:extension/Azurite.azurite)
 
+Skapa en mapp i C:\ eller liknande som heter `azurite`
+Ändra location inställningen in Azurite Extension till att peka på din mapp.
+Se nedan gif hur du gör det.
+
+<img src="images/azurite.location.setting.gif" alt="drawing" width="96"/>
+
 </p>
 </details>
 
@@ -26,7 +32,11 @@ Följ intruktionerna nedan för det operativsystem du använder.
 3. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
 4. Installera Azurite Extension till VSCode [Azurite](vscode:extension/Azurite.azurite)
 
-![](azurite.location.setting.gif)
+Skapa en mapp i C:\ eller liknande som heter `azurite`
+Ändra location inställningen in Azurite Extension till att peka på din mapp.
+Se nedan gif hur du gör det.
+
+<img src="images/azurite.location.setting.gif" alt="drawing" width="96"/>
 
 </p>
 </details>
@@ -39,7 +49,11 @@ Följ intruktionerna nedan för det operativsystem du använder.
 3. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
 4. Installera Azurite Extension till VSCode [Azurite](vscode:extension/Azurite.azurite)
 
+Skapa en mapp i C:\ eller liknande som heter `azurite`
+Ändra location inställningen in Azurite Extension till att peka på din mapp.
+Se nedan gif hur du gör det. 
 
+<img src="images/azurite.location.setting.gif" alt="drawing" width="300"/>
 
 </p>
 </details>
@@ -67,11 +81,13 @@ Hoppa in i den mappen
 $ cd .\Functions\
 ```
 
-## Här börjar vi skapa functionsappen 
+## Här börjar vi skapa funktionsappen 
+
 
 ```
 $ func init
 ```
+*`Func init` skapar en ny funktionsapp*
 
 Öppna i VSCode (Visual Studio Code) 
 
@@ -80,25 +96,28 @@ $ func init
 ```
 $ code .
 ```
+*`code .` öppnar upp mappen du befinner dig i, i VSCode*
 
 Skapa en Funktion!
 
 ```
 $ func new
 ```
+*`func new` skapar en ny funktionstrigger*
 
 Välj `HttpTrigger` i listan och namnge triggern vad du vill
 
-Ändra `Route = null` i in-parametern till funktionen till `Route = names`
+Ändra `Route = null` i in-parametern till funktionen till `Route = "names"`
 
-Tryck `F5` på tangentbordet när du är i VSCode för att starta debuggern.
+Tryck `F5` på tangentbordet när du är i VSCode för att starta funtionsappen i debug-läge.
 
 Kör följande kommando utan debugger
 ```
 $ func host start
 ```
+*`func host start` startar funktionsappen*
 
-Öppna förslagsvis upp ett nytt kommandofönster och gör en post request till din nyss skapade HttpTrigger!
+Öppna förslagsvis upp ett nytt fönster av din kommandotolk och gör en post request till din nyss skapade HttpTrigger!
 
 #### Windows
 
@@ -114,6 +133,8 @@ $ curl -X POST -H "Content-Type: application/json" \-d '{"name":"there!"}' \http
 
 </p>
 </details>
+
+Börja debugga!
 
 ## Presentation
 
