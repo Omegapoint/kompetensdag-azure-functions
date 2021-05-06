@@ -3,14 +3,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Omegapoint.Functions;
 using System.IO;
+using System.Reflection;
+
 
 [assembly: FunctionsStartup(typeof(Startup))]
-
+[assembly: AssemblyVersion("1.0")]
 namespace Omegapoint.Functions
 {
     public class Startup : FunctionsStartup
     {
-
         public override void Configure(IFunctionsHostBuilder builder)
         {
             ConfigureServices(builder.Services).BuildServiceProvider(true);
@@ -30,6 +31,9 @@ namespace Omegapoint.Functions
             services
                 .AddSingleton<IConfiguration>(config)
                 .AddLogging();
+
+            services.AddSingleton<QueueTriggerToBlob>(s => new QueueTriggerToBlob(config["AzureWebJobsStorage"]));
+
             return services;
         }
 

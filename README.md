@@ -16,7 +16,7 @@ Följ intruktionerna nedan för det operativsystem du använder.
 4. Installera [Azurite Extension](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite) till VSCode
 
 Skapa en mapp i `C:\` eller liknande som heter `azurite`
-Ändra location inställningen in Azurite Extension till att peka på din mapp.
+Ändra location inställningen i Azurite Extension till att peka på din mapp.
 Se nedan gif hur du gör det.
 
 <img src="images/azurite.location.setting.gif" alt="drawing" width="500"/>
@@ -33,7 +33,7 @@ Se nedan gif hur du gör det.
 4. Installera [Azurite Extension](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite) till VSCode
 
 Skapa en mapp i `c/` eller liknande som heter `azurite`
-Ändra location inställningen in Azurite Extension till att peka på din mapp.
+Ändra location inställningen i Azurite Extension till att peka på din mapp.
 Se nedan gif hur du gör det.
 
 <img src="images/azurite.location.setting.gif" alt="drawing" width="500"/>
@@ -50,7 +50,7 @@ Se nedan gif hur du gör det.
 4. Installera [Azurite Extension](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite) till VSCode
 
 Skapa en mapp i `c/` eller liknande som heter `azurite`
-Ändra location inställningen in Azurite Extension till att peka på din mapp.
+Ändra location inställningen i Azurite Extension till att peka på din mapp.
 Se nedan gif hur du gör det.
 
 <img src="images/azurite.location.setting.gif" alt="drawing" width="500"/>
