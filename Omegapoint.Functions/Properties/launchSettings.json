@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Omegapoint.Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "start --verbose"
+    }
+  }
+}

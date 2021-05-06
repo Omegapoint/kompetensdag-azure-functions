@@ -32,8 +32,6 @@ namespace Omegapoint.Functions
                 .AddSingleton<IConfiguration>(config)
                 .AddLogging();
 
-            services.AddSingleton<QueueTriggerToBlob>(s => new QueueTriggerToBlob(config["AzureWebJobsStorage"]));
-
             return services;
         }
 
