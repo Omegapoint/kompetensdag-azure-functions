@@ -11,8 +11,9 @@ Följ intruktionerna nedan för det operativsystem du använder.
 <p>
 
 1. Ladda ned .NET Core 3.1 SDK här [64-bitars-installationsfil](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.408-windows-x64-installer)
-2. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
-3. Installera Azure Functions Core Tools [64-bitars-installationsfil](https://go.microsoft.com/fwlink/?linkid=2135274)
+2. Installera Azure Functions Core Tools [64-bitars-installationsfil](https://go.microsoft.com/fwlink/?linkid=2135274)
+3. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
+4. Installera Azurite Extension till VSCode [Azurite](vscode:extension/Azurite.azurite)
 
 </p>
 </details>
@@ -21,8 +22,11 @@ Följ intruktionerna nedan för det operativsystem du använder.
 <p>
 
 1. Ladda ned .NET Core 3.1 SDK här [installationsfil](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.408-macos-x64-installer)
-2. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
-3. Installera Azure Functions Core Tools [länk-till-dokumentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
+2. Installera Azure Functions Core Tools [länk-till-dokumentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
+3. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
+4. Installera Azurite Extension till VSCode [Azurite](vscode:extension/Azurite.azurite)
+
+![](azurite.location.setting.gif)
 
 </p>
 </details>
@@ -31,8 +35,11 @@ Följ intruktionerna nedan för det operativsystem du använder.
 <p>
 
 1. Följ denna [guide](https://docs.microsoft.com/sv-se/dotnet/core/install/linux) för att ladda ned .NET Core 3.1 SDK 
-2. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
-3. Installera Azure Functions Core Tools [länk-till-dokumentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=linux%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
+2. Installera Azure Functions Core Tools [länk-till-dokumentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=linux%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
+3. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
+4. Installera Azurite Extension till VSCode [Azurite](vscode:extension/Azurite.azurite)
+
+
 
 </p>
 </details>
@@ -68,7 +75,7 @@ $ func init
 
 Öppna i VSCode (Visual Studio Code) 
 
-*för att debuggern ska fungera kräver det att man öppnar upp mappen där functionen ligger VSCode*
+*för att debuggern ska fungera kräver det att man öppnar upp mappen i VSCode där functionen ligger*
 
 ```
 $ code .
@@ -84,21 +91,27 @@ Välj `HttpTrigger` i listan och namnge triggern vad du vill
 
 Ändra `Route = null` i in-parametern till funktionen till `Route = names`
 
-Tryck `F1` på tangentbordet i VSCode och copy-paste:a in `Debug: Start Debugging`
-*tips:* nästa gång kommer `F5` vara mappat till debuggern som man kan trycka på då
+Tryck `F5` på tangentbordet när du är i VSCode för att starta debuggern.
 
-Om man vill köra funktionen utan debuggern på, testa köra:
+Kör följande kommando utan debugger
 ```
 $ func host start
 ```
 
 Öppna förslagsvis upp ett nytt kommandofönster och gör en post request till din nyss skapade HttpTrigger!
 
-#### Till exempel 
+#### Windows
 
 ```
 $ curl.exe --request POST http://localhost:7071/api/names --data "{'name':'there!'}"
 ```
+
+#### Linux och macOS
+
+```
+$ curl -X POST -H "Content-Type: application/json" \-d '{"name":"there!"}' \http://localhost:7071/api/names
+```
+
 </p>
 </details>
 
