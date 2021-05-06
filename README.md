@@ -12,8 +12,8 @@ Följ intruktionerna nedan för det operativsystem du använder.
 
 1. Ladda ned .NET Core 3.1 SDK här [64-bitars-installationsfil](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.408-windows-x64-installer)
 2. Installera Azure Functions Core Tools [64-bitars-installationsfil](https://go.microsoft.com/fwlink/?linkid=2135274)
-3. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
-4. Installera Azurite Extension till VSCode [Azurite](vscode:extension/Azurite.azurite)
+3. Installera [VSCode](https://code.visualstudio.com/Download#) (Visual Studio Code)
+4. Installera [Azurite Extension](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite) till VSCode
 
 Skapa en mapp i C:\ eller liknande som heter `azurite`
 Ändra location inställningen in Azurite Extension till att peka på din mapp.
@@ -29,8 +29,8 @@ Se nedan gif hur du gör det.
 
 1. Ladda ned .NET Core 3.1 SDK här [installationsfil](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.408-macos-x64-installer)
 2. Installera Azure Functions Core Tools [länk-till-dokumentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
-3. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
-4. Installera Azurite Extension till VSCode [Azurite](vscode:extension/Azurite.azurite)
+3. Installera [VSCode](https://code.visualstudio.com/Download#) (Visual Studio Code)
+4. Installera [Azurite Extension](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite) till VSCode
 
 Skapa en mapp i C:\ eller liknande som heter `azurite`
 Ändra location inställningen in Azurite Extension till att peka på din mapp.
@@ -46,12 +46,12 @@ Se nedan gif hur du gör det.
 
 1. Följ denna [guide](https://docs.microsoft.com/sv-se/dotnet/core/install/linux) för att ladda ned .NET Core 3.1 SDK 
 2. Installera Azure Functions Core Tools [länk-till-dokumentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=linux%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
-3. Installera VS Code (Visual Studio Code) [länk](https://code.visualstudio.com/Download#)
-4. Installera Azurite Extension till VSCode [Azurite](vscode:extension/Azurite.azurite)
+3. Installera [VSCode](https://code.visualstudio.com/Download#) (Visual Studio Code)
+4. Installera [Azurite Extension](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite) till VSCode
 
-Skapa en mapp i C:\ eller liknande som heter `azurite`
+Skapa en mapp i `C:\` eller liknande som heter `azurite`
 Ändra location inställningen in Azurite Extension till att peka på din mapp.
-Se nedan gif hur du gör det. 
+Se nedan gif hur du gör det.
 
 <img src="images/azurite.location.setting.gif" alt="drawing" width="500"/>
 
