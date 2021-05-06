@@ -32,7 +32,7 @@ Se nedan gif hur du gör det.
 3. Installera [VSCode](https://code.visualstudio.com/Download#) (Visual Studio Code)
 4. Installera [Azurite Extension](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite) till VSCode
 
-Skapa en mapp i `C:\` eller liknande som heter `azurite`
+Skapa en mapp i `c/` eller liknande som heter `azurite`
 Ändra location inställningen in Azurite Extension till att peka på din mapp.
 Se nedan gif hur du gör det.
 
@@ -49,7 +49,7 @@ Se nedan gif hur du gör det.
 3. Installera [VSCode](https://code.visualstudio.com/Download#) (Visual Studio Code)
 4. Installera [Azurite Extension](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite) till VSCode
 
-Skapa en mapp i `C:\` eller liknande som heter `azurite`
+Skapa en mapp i `c/` eller liknande som heter `azurite`
 Ändra location inställningen in Azurite Extension till att peka på din mapp.
 Se nedan gif hur du gör det.
 
