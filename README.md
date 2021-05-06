@@ -83,17 +83,22 @@ $ cd .\Functions\
 
 ## Här börjar vi skapa funktionsappen 
 
-*`Func init` skapar en ny funktionsapp*
+`Func init` skapar en ny funktionsapp
 
 ### Öppna i VSCode (Visual Studio Code)
 
 *för att debuggern ska fungera kräver det att man öppnar upp mappen i VSCode där functionen ligger* 
 
-*`$ code .` öppnar upp mappen du befinner dig i, i VSCode*
+`code .` öppnar upp mappen du befinner dig i, i VSCode *(missa inte punkten)*
+
+### Kommandon bra att kunna
+
+`dotnet build` bygg ditt projekt 
+och `dotnet restore` "synka" dina nuget paket
 
 ### Skapa en Funktion! 
 
-*`$ func new` skapar en ny funktionstrigger*
+`func new` skapar en ny funktionstrigger
 
 Välj `HttpTrigger` i listan och namnge triggern vad du vill
 
@@ -103,7 +108,7 @@ Tryck `F5` på tangentbordet när du är i VSCode för att starta funtionsappen 
 
 Kör följande kommando utan debugger
 
-*`func host start` startar funktionsappen*
+`func host start` startar funktionsappen
 
 Öppna förslagsvis upp ett nytt fönster av din kommandotolk och gör en post request till din nyss skapade HttpTrigger!
 
