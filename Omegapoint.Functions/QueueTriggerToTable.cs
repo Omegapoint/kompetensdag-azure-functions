@@ -18,12 +18,10 @@
 //         }
 
 //         [FunctionName(FunctionName)]
-//         public async Task RunAsync([QueueTrigger("personqueue", Connection = "AzureWebJobsStorage")] string queueMessage, ILogger log
-//         // [Table("PersonTable", Connection = "AzureWebJobsStorage")] IAsyncCollector<PersonTable> personTable
-//         )
+//         public async Task RunAsync([QueueTrigger("personqueue", Connection = "AzureWebJobsStorage")] string queueMessage, ILogger log, 
+//         [Table("PersonTable", Connection = "AzureWebJobsStorage")] IAsyncCollector<PersonTable> personTable)
 //         {
 //             log.LogInformation($"C# Queue trigger function processed: {queueMessage}");
-//             await Task.Delay(1);
 //             PersonDto dto = JsonConvert.DeserializeObject<PersonDto>(queueMessage);
 //             Person person = dto.CreateInstance();
 //             PersonTable personTableItem = new PersonTable
