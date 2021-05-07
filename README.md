@@ -86,6 +86,8 @@ $ cd c:\Functions\
 
 `Func init` skapar en ny funktionsapp
 
+Välj dotnet i listan
+
 ### Öppna i VSCode (Visual Studio Code)
 
 *för att debuggern ska fungera kräver det att man öppnar upp mappen i VSCode där functionen ligger* 
