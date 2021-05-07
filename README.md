@@ -73,12 +73,13 @@ Kolla också att det gick bra att installera Azure Functions Core Tools
 $ func --version
 ```
 
-Skapa en mapp som till exempel heter `Functions` eller gå till en valfri mapp och skriv `mkdir Functions`
+Skapa en mapp som till exempel heter `Functions`
 
-Hoppa in i den mappen
+Navigera till den mappen i din kommandotolk
 
+Till exempel:
 ```
-$ cd .\Functions\
+$ cd c:\Functions\
 ```
 
 ## Här börjar vi skapa funktionsappen 
@@ -91,10 +92,16 @@ $ cd .\Functions\
 
 `code .` öppnar upp mappen du befinner dig i, i VSCode *(missa inte punkten)*
 
-### Kommandon bra att kunna
+<details><summary><strong>Kommandon bra att kunna</strong></summary>
+<p>
 
-`dotnet build` bygg ditt projekt 
-och `dotnet restore` "synka" dina nuget paket
+`dotnet build` bygger ditt projekt
+
+`dotnet restore` "synkar" dina nuget paket
+
+`func host start` startar funktionsappen utan debugger
+</p>
+</details>
 
 ### Skapa en Funktion! 
 
@@ -105,10 +112,6 @@ Välj `HttpTrigger` i listan och namnge triggern vad du vill
 Ändra `Route = null` i in-parametern till funktionen till `Route = "names"` (*rad 17 typ i din HttpTrigger class*)
 
 Tryck `F5` på tangentbordet när du är i VSCode för att starta funtionsappen i debug-läge.
-
-Kör följande kommando utan debugger
-
-`func host start` startar funktionsappen
 
 Öppna förslagsvis upp ett nytt fönster av din kommandotolk och gör en post request till din nyss skapade HttpTrigger!
 
