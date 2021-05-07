@@ -19,7 +19,7 @@ namespace Omegapoint.Functions
         }
 
         [FunctionName(FunctionName)]
-        public async Task RunAsync([QueueTrigger("personQueue", Connection = "AzureWebJobsStorage")] JObject personInfo, ILogger log)
+        public async Task RunAsync([QueueTrigger("personqueue", Connection = "AzureWebJobsStorage")] JObject personInfo, ILogger log)
         {
             log.LogInformation($"C# Queue trigger function processed: {personInfo}");
 
