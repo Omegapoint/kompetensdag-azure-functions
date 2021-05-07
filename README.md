@@ -86,7 +86,7 @@ $ cd c:\Functions\
 
 `Func init` skapar en ny funktionsapp
 
-Välj dotnet i listan
+Välj `dotnet` i listan
 
 ### Öppna i VSCode (Visual Studio Code)
 
