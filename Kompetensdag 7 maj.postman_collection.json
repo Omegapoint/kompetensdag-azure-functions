@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "5e0320ce-a3b8-488b-9094-3b3da7ac6775",
+		"name": "Kompetensdag 7 maj",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "HttpTrigger",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Adam Lindström\",\r\n    \"programmingLanguage\": \"C#\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/names",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"names"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EventGridTrigger",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "aeg-event-type",
+						"value": "Notification",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"2d1781af-3a4c-4d7c-bd0c-e34b19da4e66\",\r\n    \"eventType\": \"MyEvent\",\r\n    \"dataVersion\": \"1\",\r\n    \"metadataVersion\": \"1\",\r\n    \"topic\": \"/subscriptions/some/topic\",\r\n    \"subject\": \"/lab\",\r\n    \"data\": {\r\n        \"name\": \"Adam\",\r\n        \"programmingLanguage\": \"C#\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"events"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
